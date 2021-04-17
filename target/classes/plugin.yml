@@ -1,0 +1,4 @@
+name: EnhancedShulkerBoxes
+main: tech.gesp.EnhancedShulkerBoxPlugin
+version: 0.1
+api-version: 1.13
