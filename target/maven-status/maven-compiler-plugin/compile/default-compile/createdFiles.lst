@@ -3,4 +3,5 @@ tech\gesp\configuration\Setting.class
 tech\gesp\configuration\ConfigModule.class
 tech\gesp\EnhancedShulkerBoxPlugin.class
 tech\gesp\shulkerbox\EnhancedShulkerBox.class
+tech\gesp\shulkerbox\exceptions\ShulkerBoxNotFoundException.class
 tech\gesp\shulkerbox\listeners\InventoryClickListener.class

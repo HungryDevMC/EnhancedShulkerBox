@@ -6,6 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
 import tech.gesp.shulkerbox.EnhancedShulkerBox;
+import tech.gesp.shulkerbox.exceptions.ShulkerBoxNotFoundException;
 
 public class InventoryClickListener implements Listener {
 
@@ -13,13 +14,15 @@ public class InventoryClickListener implements Listener {
     public void onInventoryClickEvent(InventoryClickEvent e) {
         ItemStack currentItem = e.getCurrentItem();
         ItemStack cursorItem = e.getCursor();
-        if (currentItem == null) return;
+        if (currentItem == null || !currentItem.getType().equals(Material.SHULKER_BOX)) return;
         if (cursorItem == null || cursorItem.getType().equals(Material.AIR)) return;
 
-        EnhancedShulkerBox.getShulkerFromItem(currentItem).ifPresent(shulkerBox -> {
-            boolean hasAdded = EnhancedShulkerBox.addItemToShulkerBox(cursorItem, shulkerBox);
-            e.setCancelled(hasAdded);
-        });
+        try {
+            int amountLeft = EnhancedShulkerBox.addItemToShulkerBox(cursorItem, currentItem);
+            cursorItem.setAmount(amountLeft);
+            e.setCancelled(true);
+        } catch (ShulkerBoxNotFoundException shulkerBoxNotFoundException) {
+            shulkerBoxNotFoundException.printStackTrace();
+        }
     }
-
 }
