@@ -1,9 +1,7 @@
 package tech.gesp.configuration;
 
-import tech.gesp.EnhancedShulkerBoxPlugin;
-
 import java.io.IOException;
-import java.util.logging.Level;
+import java.util.Arrays;
 
 public class ConfigModule {
 
@@ -11,9 +9,10 @@ public class ConfigModule {
         try {
             ConfigurationFile.createDefaults();
         } catch (IOException ioException) {
-            EnhancedShulkerBoxPlugin.getInstance().getLogger().log(Level.WARNING, ioException.getMessage());
             ioException.printStackTrace();
-            EnhancedShulkerBoxPlugin.getInstance().getServer().shutdown();
         }
+
+        Arrays.stream(Setting.values()).forEach(
+                configuration -> Setting.CONFIGURATION_VALUES.put(configuration, configuration.getYmlFile().value().getString(configuration.getValuePath())));
     }
 }
