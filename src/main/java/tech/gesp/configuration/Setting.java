@@ -12,7 +12,8 @@ import java.util.HashMap;
 @Getter
 public enum Setting {
 
-    CHECK_FOR_UPDATES(ConfigurationFile.CONFIG, "check_for_updates");
+    CHECK_FOR_UPDATES(ConfigurationFile.CONFIG, "check_for_updates"),
+    ALLOW_OPENING_SHULKER_IN_HOTBAR(ConfigurationFile.CONFIG, "allow_opening_shulker_in_hotbar");
 
     public static final HashMap<Setting, String> CONFIGURATION_VALUES = new HashMap<>();
 
