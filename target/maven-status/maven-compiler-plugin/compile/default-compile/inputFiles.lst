@@ -1,8 +1,8 @@
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\configuration\Setting.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\shulkerbox\listeners\HotBarClickListener.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\configuration\ConfigModule.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\shulkerbox\listeners\InventoryClickListener.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\configuration\ConfigurationFile.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\EnhancedShulkerBoxPlugin.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\shulkerbox\EnhancedShulkerBox.java
-C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\shulkerbox\exceptions\ShulkerBoxNotFoundException.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\shulkerbox\listeners\HotBarClickListener.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\shulkerbox\exceptions\ShulkerBoxNotFoundException.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\EnhancedShulkerBoxPlugin.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\configuration\ConfigModule.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\shulkerbox\listeners\InventoryClickListener.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\configuration\Setting.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\configuration\ConfigurationFile.java
+C:\Users\user\Documents\GESP\spigotmc\EnhancedShulkerBoxes\EnhancedShulkerBox\src\main\java\tech\gesp\esb\shulkerbox\EnhancedShulkerBox.java

@@ -1,4 +1,4 @@
-package tech.gesp.shulkerbox.exceptions;
+package tech.gesp.esb.shulkerbox.exceptions;
 
 import org.bukkit.inventory.ItemStack;
 

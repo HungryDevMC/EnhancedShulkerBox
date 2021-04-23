@@ -1,14 +1,14 @@
-package tech.gesp;
+package tech.gesp.esb;
 
 import de.jeff_media.updatechecker.UpdateChecker;
 import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import tech.gesp.configuration.ConfigModule;
-import tech.gesp.configuration.Setting;
-import tech.gesp.shulkerbox.listeners.HotBarClickListener;
-import tech.gesp.shulkerbox.listeners.InventoryClickListener;
+import tech.gesp.esb.configuration.ConfigModule;
+import tech.gesp.esb.configuration.Setting;
+import tech.gesp.esb.shulkerbox.listeners.HotBarClickListener;
+import tech.gesp.esb.shulkerbox.listeners.InventoryClickListener;
 
 public class EnhancedShulkerBoxPlugin extends JavaPlugin {
 

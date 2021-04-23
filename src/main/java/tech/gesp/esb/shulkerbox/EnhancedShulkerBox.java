@@ -1,13 +1,11 @@
-package tech.gesp.shulkerbox;
+package tech.gesp.esb.shulkerbox;
 
 import org.bukkit.Material;
 import org.bukkit.block.ShulkerBox;
-import org.bukkit.entity.Player;
-import org.bukkit.entity.Shulker;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.BlockStateMeta;
-import tech.gesp.shulkerbox.exceptions.ShulkerBoxNotFoundException;
+import tech.gesp.esb.shulkerbox.exceptions.ShulkerBoxNotFoundException;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,7 +27,7 @@ public class EnhancedShulkerBox {
         return Optional.of(shulkerBox);
     }
 
-    private static void updateShulker(ItemStack originalShulkerItem, ShulkerBox shulkerBox) {
+    public static void updateShulker(ItemStack originalShulkerItem, ShulkerBox shulkerBox) {
         BlockStateMeta meta = (BlockStateMeta) originalShulkerItem.getItemMeta();
         meta.setBlockState(shulkerBox);
         originalShulkerItem.setItemMeta(meta);

@@ -1,8 +1,8 @@
-tech\gesp\shulkerbox\listeners\HotBarClickListener.class
-tech\gesp\configuration\ConfigurationFile.class
-tech\gesp\configuration\Setting.class
-tech\gesp\configuration\ConfigModule.class
-tech\gesp\EnhancedShulkerBoxPlugin.class
-tech\gesp\shulkerbox\EnhancedShulkerBox.class
-tech\gesp\shulkerbox\exceptions\ShulkerBoxNotFoundException.class
-tech\gesp\shulkerbox\listeners\InventoryClickListener.class
+tech\gesp\esb\configuration\ConfigModule.class
+tech\gesp\esb\configuration\ConfigurationFile.class
+tech\gesp\esb\shulkerbox\listeners\HotBarClickListener.class
+tech\gesp\esb\configuration\Setting.class
+tech\gesp\esb\shulkerbox\EnhancedShulkerBox.class
+tech\gesp\esb\EnhancedShulkerBoxPlugin.class
+tech\gesp\esb\shulkerbox\exceptions\ShulkerBoxNotFoundException.class
+tech\gesp\esb\shulkerbox\listeners\InventoryClickListener.class

@@ -1,12 +1,12 @@
-package tech.gesp.shulkerbox.listeners;
+package tech.gesp.esb.shulkerbox.listeners;
 
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 import org.bukkit.inventory.ItemStack;
-import tech.gesp.shulkerbox.EnhancedShulkerBox;
-import tech.gesp.shulkerbox.exceptions.ShulkerBoxNotFoundException;
+import tech.gesp.esb.shulkerbox.EnhancedShulkerBox;
+import tech.gesp.esb.shulkerbox.exceptions.ShulkerBoxNotFoundException;
 
 public class InventoryClickListener implements Listener {
 
