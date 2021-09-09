@@ -1,10 +1,10 @@
-package tech.gesp.configuration;
+package tech.gesp.esb.configuration;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import tech.gesp.EnhancedShulkerBoxPlugin;
+import tech.gesp.esb.EnhancedShulkerBoxPlugin;
 
 import java.io.File;
 import java.io.IOException;

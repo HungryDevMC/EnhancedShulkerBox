@@ -1,4 +1,4 @@
-package tech.gesp.configuration;
+package tech.gesp.esb.configuration;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

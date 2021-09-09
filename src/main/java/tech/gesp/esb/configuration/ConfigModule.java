@@ -1,4 +1,4 @@
-package tech.gesp.configuration;
+package tech.gesp.esb.configuration;
 
 import java.io.IOException;
 import java.util.Arrays;
